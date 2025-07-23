@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGCS</title>
+    <link rel="icon" href="static/image/logobg.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Galada&family=Pacifico&family=Playwrite+AU+SA:wght@100..400&family=Playwrite+BE+VLG:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav1">
+
+        </div>
+        <div class="nav2">
+            <a href="#" class="opt">Home</a>
+            <a href="#" class="opt">Contact Us</a>
+            <a href="#" class="opt">Services</a>
+            <!-- Enquiry Button -->
+        <button onclick="openForm()" class="enquiry-btn">Enquiry</button>
+
+        <!-- Enquiry Form Modal -->
+        <div id="enquiryModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeForm()">&times;</span>
+            <h2>Enquiry Form</h2>
+            <form>
+            <label>Name</label>
+            <input type="text" required>
+
+            <label>Phone Number</label>
+            <input type="tel" required>
+
+            <label>Email</label>
+            <input type="email">
+
+            <label>Event Type</label>
+            <select>
+                <option>Wedding</option>
+                <option>Birthday</option>
+                <option>Corporate</option>
+                <option>Other</option>
+            </select>
+
+            <label>Event Date</label>
+            <input type="date">
+
+            <label>Number of Guests</label>
+            <input type="number">
+
+            <label>Location</label>
+            <input type="text">
+
+            <label>Special Requests</label>
+            <textarea rows="3"></textarea>
+
+            <button type="submit" class="submit-btn">Send Enquiry</button>
+            </form>
+        </div>
+        </div>
+
+        </div>
+    </div>
+    <div class="banner">
+        <img src="static/image/logobg.png" height="300px" width="300px">
+
+        <div class="tagline-container">
+        <h1 class="animated-tagline">Catering Moments, Crafting Experiences</h1>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="service">
+        <div class="s1">
+            <img style="border-radius: 10px;" class="shadow-image" src="static/image/psssdddd-1-1.png" height="300px" width="500px">
+        </div>
+        <div class="s2">
+            <div class="our">
+                <div class="o1">
+                    <h1 style="color: #3EB489;">OUR</h1>
+                </div>
+                <div class="o2">
+                    <h1 style="color: rgba(0, 0, 0, 0.671);">SERVICES</h1>
+                </div>
+            </div>
+            <h4 style="color: rgba(0, 0, 0, 0.671);">We specialize in crafting bespoke menus for weddings, corporate events, and special occasions. Our professional team ensures every detail is meticulously planned, from food preparation to presentation, to guarantee a memorable dining experience.</h4>
+            <br>
+            <h4 style="color: rgba(0, 0, 0, 0.671);">Whether you’re hosting an intimate gathering or a grand celebration, trust us to deliver exceptional cuisine and impeccable service that exceeds expectations. Contact us today to discuss your event!</h4>
+        </div>
+    </div>
+    <br>
+    <img src="static/image/IMG_20250714_005025.png" width="100%">
+    <br>
+    <br>
+    <div class="det">
+        <div class="d1">
+            <h1>SERVICE</h1>
+        </div>
+        <div class="d2">
+            <h1>DETAILS</h1>
+        </div>
+    </div>
+    <br>
+    <div class="event">
+        <div class="box">
+            <div class="b1">
+                <img src="static/image/one.jpg" style="border-radius: 10px;" height="90%">
+            </div>
+            <div class="b2">
+                <h1 style="color: rgba(0, 0, 0, 0.74);">Corporate Catering</h1>
+            </div>
+            <div class="b3">
+                <div class="b31">
+
+                </div>
+                <div class="b32">
+                    <div class="b323">
+                        <p style="text-align: center;color: rgba(0, 0, 0, 0.562);">Experience our tailored corporate catering service designed for seamless events, from intimate meetings to large-scale conferences. Enjoy custom menus featuring diverse cuisines and exceptional service that aligns perfectly with your business needs and enhances your event's success.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="b4">
+                <button>More...</button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="b1">
+                <img src="static/image/two.jpg" style="border-radius: 10px;" height="90%">
+            </div>
+            <div class="b2">
+                <h1 style="color: rgba(0, 0, 0, 0.74);">Events Catering</h1>
+            </div>
+            <div class="b3">
+                <div class="b31">
+
+                </div>
+                <div class="b32">
+                    <div class="b323">
+                        <p style="text-align: center;color: rgba(0, 0, 0, 0.562);">Elevate your events with our versatile catering service, perfect for weddings, parties, and corporate gatherings. We specialize in customized menus tailored to your preferences and offer professional service that ensures a seamless . Let us take care of the details while you enjoy your special occasion.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="b4">
+                <button>More...</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="event">
+        <div class="box">
+            <div class="b1">
+                <img src="static/image/three.jpg" style="border-radius: 10px;" height="90%">
+            </div>
+            <div class="b2">
+                <h1 style="color: rgba(0, 0, 0, 0.74);">Social Event Catering</h1>
+            </div>
+            <div class="b3">
+                <div class="b31">
+
+                </div>
+                <div class="b32">
+                    <div class="b323">
+                        <p style="text-align: center;color: rgba(0, 0, 0, 0.562);">Elevate your social events with our bespoke catering service. Whether it's a family reunion, birthday celebration, or community festival, we offer tailored menus and professional service to enhance every gathering. From menu planning to flawless execution, we ensure your event is a culinary success, leaving you free to enjoy the occasion with your guests.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="b4">
+                <button>More...</button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="b1">
+                <img src="static/image/four.jpg" style="border-radius: 10px;" height="90%">
+            </div>
+            <div class="b2">
+                <h1 style="color: rgba(0, 0, 0, 0.74);">Buffet Catering</h1>
+            </div>
+            <div class="b3">
+                <div class="b31">
+
+                </div>
+                <div class="b32">
+                    <div class="b323">
+                        <p style="text-align: center;color: rgba(0, 0, 0, 0.562);">Indulge in our buffet catering service, perfect for casual gatherings and formal events alike. Enjoy a wide array of dishes meticulously prepared and presented to delight your guests. Whether it's a corporate luncheon or a wedding reception, our customizable menus and attentive service ensure a memorable dining experience that suits any occasion.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="b4">
+                <button>More...</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="fresh">
+        <div class="f">
+            <h1 class="animated-line">Only The Freshest Ingredients</h1>
+        </div>
+        
+    </div>
+    <br>
+    <br>
+
+    <div class="review-section">
+        <h2>What Our Customers Say</h2>
+        <div class="reviews">
+            <div class="review">
+            <p>“Amazing food and top-notch service! Highly recommended.”</p>
+            <span>Smriti Goarai</span>
+            </div>
+            <div class="review">
+            <p>“The catering was flawless. Everyone loved the dishes.”</p>
+            <span>Subrata Pan</span>
+            </div>
+            <div class="review">
+            <p>“Fresh ingredients and warm hospitality. Will book again!”</p>
+            <span>Pritam Priya</span>
+            </div>
+            <div class="review">
+            <p>“They handled everything smoothly and professionally.”</p>
+            <span>your Krishna</span>
+            </div>
+            <div class="review">
+            <p>“One of the best catering experiences we've had so far.”</p>
+            <span>Dilip Ghosh</span>
+            </div>
+            <div class="review">
+            <p>“Delicious menu and friendly staff. 10/10 service!”</p>
+            <span>Robert Downey jr.</span>
+            </div>
+            <div class="review">
+            <p>“Exceptional quality and presentation. Guests were impressed!”</p>
+            <span>Riya Gorai</span>
+            </div>
+            <div class="review">
+            <p>“Timely service, flavorful dishes, and great coordination.”</p>
+            <span>Barsha Dey</span>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="final">
+        <div class="f2">
+            <div class="f21">
+                <br>
+                <h1>Quick Connect</h1>
+                <br>
+                <h3 style="color: rgba(0, 0, 0, 0.568);">We’re not just here to meet expectations; we’re here to exceed them.</h3>
+            </div>
+            <div class="f22">
+                <button style="width: 100px;">Contact Now!</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-about">
+            <h3>Satya Gopal Catering Service</h3>
+            <p>Delivering tradition and taste to every celebration. We serve fresh, hygienic, and mouth-watering dishes for every occasion.</p>
+            </div>
+            <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            </div>
+            <div class="footer-contact">
+            <h4>Contact Us</h4>
+            <p>Email: info@satyagopal.com</p>
+            <p>Phone: +91 7318716791</p>
+            <p>Location: Puabagan, Bankura, West Bengal</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Satya Gopal Catering Service. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+    <script>
+    function openForm() {
+        document.getElementById("enquiryModal").style.display = "block";
+    }
+
+    function closeForm() {
+        document.getElementById("enquiryModal").style.display = "none";
+    }
+
+    // Optional: close when clicking outside the modal
+    window.onclick = function(event) {
+        const modal = document.getElementById("enquiryModal");
+        if (event.target === modal) {
+        modal.style.display = "none";
+        }
+    }
+    </script>
+
+</body>
+</html>
